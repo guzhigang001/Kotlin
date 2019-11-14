@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
 //    args.forEach { element: String -> println(element) }
 //    args.forEach { element -> println(element) }
 //    args.forEach() { println(it) }//如果函数的参数是lambda表达式 那么可以将这个参数移到外面去
-//    args.forEach { println(it) }//同时去掉小括号
+    args.forEach { println(it) }//同时去掉小括号
 //    args.forEach(::println)
 
 

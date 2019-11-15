@@ -28,4 +28,14 @@ class B {
     val x2: X by lazy {
         X()
     }
+
+
+    var cc: String? = null
 }
+
+fun main(args: Array<String>) {
+
+    val b = B()
+//    println(b.cc?.length) //每次都要加?.比较麻烦
+}
+

@@ -8,11 +8,10 @@ package com.qinglianyun.kotlin.class3
 fun main(args: Array<String>) {
     val x = 5
     when (x) {
-
-        args[0].toInt() -> println("x==args[0]")
-        is Int -> println("Hello is$x")
-        in 1..100 -> println("$x is in 100 ")
         !in 1..100 -> println("$x is not in 100")
+        in 1..100 -> println("$x is in 100 ")
+        args[0].toInt() -> println("x==args[0]")
+        is Int -> println("Hello is $x")
         else -> println("default case")
     }
 

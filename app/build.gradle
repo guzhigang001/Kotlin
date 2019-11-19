@@ -4,6 +4,9 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: 'kotlin-noarg'
+
+apply plugin: 'kotlin-allopen'
 android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
@@ -31,4 +34,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+noArg {
+    annotation("com.qinglianyun.kotlin.class4.annotations.Poko")
+}
+
+allOpen {
+    annotation("com.qinglianyun.kotlin.class4.annotations.Poko")
 }

@@ -1,7 +1,7 @@
 package com.qinglianyun.kotlin.class3
 
 /**
- * Created by gzg on 2019/11/14.
+ * Created by gzg on 2019/11/19.
  * function:
  */
 class A {
@@ -17,3 +17,4 @@ class A {
             field = value
         }
 }
+

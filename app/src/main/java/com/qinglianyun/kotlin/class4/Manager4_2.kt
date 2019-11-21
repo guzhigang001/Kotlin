@@ -13,6 +13,7 @@ abstract class Manager : Driver, Writer {
 
     override fun writer() {
     }
+
 }
 
 interface Driver {

@@ -7,7 +7,7 @@ import java.io.FileReader
  * Created by gzg on 2019/11/20.
  * function:let apply with 高阶函数
  *
- * let相当于将参数中的相同条件提取到外面
+ * let相当于将参数中的相同条件提取到外面 并且有返回值
  * apply 相当于在对象中 可以直接调用属性和方法
  * with apply作用相似 但是有参数不能null 且参数不同返回值不同
  * use 是一个自带关闭close的函数

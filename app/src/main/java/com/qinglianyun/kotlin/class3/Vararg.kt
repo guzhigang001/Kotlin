@@ -14,7 +14,7 @@ fun main(vararg args: String) {
 //    }
 
 //    hello(1,2,3,4,"Hello")    //错误 变长参数 需要指定 否则不知道hello 会以为是args中的参数
-    hello(1, 2, 3, 4, string = "Hello")//后面是具名参数 即string=  //
+    hello(1, 2, 3, 4, string = "Hello")//后面是具名参数 即string=
     hello(3.0, 1, 2, 3, 4, string = "Hello")//在变长参数之前是不需要具名参数的
 
 

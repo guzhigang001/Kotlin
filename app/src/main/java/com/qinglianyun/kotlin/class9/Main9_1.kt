@@ -2,7 +2,7 @@ package com.qinglianyun.kotlin.class9
 
 /**
  * Created by gzg on 2019/12/5.
- * function:Kotlin中使用泛型
+ * function:Kotlin中使用泛型 给方法定义泛型
  */
 
 fun main(args: Array<String>) {

@@ -11,14 +11,29 @@ fun getName(): String? {
 
 fun main(args: Array<String>) {
 
-    val nameB = getName()
+    val nameB: String? = getName()
     println(nameB?.length)//  null
 
-    val value:String ?= "HelloWorld"
+    val value: String? = "HelloWorld"
     println(value!!.length)
 
-    val nameA: String = getName()?: return
+    val nameA: String = getName() ?: return
     println(nameA.length)
 
+    val parentA: Parent = Chlid()
+    if (parentA is Chlid) {
+        parentA.age
+    }
 
+    val parentB: Parent = Parent()
+    val chlidA: Chlid = parentB as Chlid
+    val chlidB: Chlid? = parentB as? Chlid
+}
+
+open class Parent {
+
+}
+
+class Chlid : Parent() {
+    val age = 18
 }

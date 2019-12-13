@@ -6,8 +6,9 @@ package com.qinglianyun.kotlin.class1_2
  */
 
 
-val rangeInt: IntRange=1..1024//[0,1024]
-val range_exclusive:IntRange=0 until 1024//[0,1024)
+val rangeInt: IntRange = 1..1024//[0,1024]
+val range_exclusive: IntRange = 0 until 1024//[0,1024)
+val b: Boolean = true
 
 fun main(args: Array<String>) {
     println(rangeInt.contains(50))
@@ -16,8 +17,7 @@ fun main(args: Array<String>) {
     println(range_exclusive.contains(1024))
     println(1024 in range_exclusive)
 
-    
-    for (i in range_exclusive){
+    for (i in range_exclusive) {
         println(i)
     }
 }
